@@ -1,0 +1,6 @@
+COUNT(
+  CASE
+    WHEN YEAR(Registro DI) = 'data' THEN 1
+    ELSE NULL
+  END
+)
