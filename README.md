@@ -18,3 +18,6 @@ SUM(
     ELSE 0 
   END
 )
+
+CASE WHEN EXTRACT(YEAR FROM `Data Registro`) = 2023 THEN `Local Descarga - Total Dólares` ELSE 0 END
+
